@@ -39,7 +39,7 @@ class Triangulo(Figura):
     def calcular_area(self):
         return (self.base * self.altura) / 2
 
-# Ejemplo de uso para demostrar polimorfismo
+# Ejemplo 
 if __name__ == "__main__":
     circulo = Circulo(5)
     rectangulo = Rectangulo(10, 4)
