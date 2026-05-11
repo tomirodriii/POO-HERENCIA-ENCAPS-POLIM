@@ -35,7 +35,7 @@ class Desarrollador(Empleado):
     def calcular_salario(self):
         return super().calcular_salario() + (self.__horasextra * 50)
 
-# Ejemplo de uso para demostrar polimorfismo
+# Ejemplo
 if __name__ == "__main__":
     
     empleado = Empleado("Juan Pérez", 3000)
