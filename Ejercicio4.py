@@ -36,7 +36,7 @@ class Motocicleta(Vehiculo):
     def describir(self):
         return f"{super().describir()} - {self.cilindrada} cc"
     
-# Ejemplo de uso para demostrar polimorfismo
+# Ejemplo 
 
 if __name__ == "__main__":
     automovil = Automovil("Toyota", "Corolla", 2020, 4)
